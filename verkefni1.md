@@ -9,6 +9,7 @@ Verkþættir:
 4. Skipuleggið tengingar þannig að vírar liggi meðfram grind á vélmenni
 5. Skráið niður portin og hvaða mótorar og eða skynjarar tengjast þeim
 6. Takið mynd af vélmenni neðanfrá, ofanfrá og frá hlið og setjið í repo ykkar
+7. Skilið inn slóð á repo í INNU og viðkomandi verkefni
 
 Námsmat:
 * Repository og möppur 3%
@@ -16,4 +17,6 @@ Námsmat:
 * Vírar og frágangur 3%
 * Port 3%
 * Kista frágangur og merking hennar 1%
+
+***Sýnið kennara kistu****
 
