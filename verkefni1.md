@@ -6,7 +6,7 @@ Verkþættir:
 2. Búið til möppur í repository: verkefni1.md,verkefni2.md .....verkefni6.md
 1. Taka í sundur eldra vélmenni
 2. Taka til og skipuleggja verkfærakistu og merkja kistuna (ykkar nöfn)
-3. Byggja vélmenni samkvæmt þessum [leiðbeiningum](https://content.vexrobotics.com/docs/V5-Clawbot-BuildInstructions-0720.pdf)
+3. Byggja vélmenni samkvæmt þessum [leiðbeiningum](https://content.vexrobotics.com/docs/V5-Clawbot-BuildInstructions-0720.pdf) eða [3D](https://instructions.online/?id=4063-advanced%20trainingbot%20classroom%20kits)
 4. Skipuleggið tengingar þannig að vírar liggi meðfram grind á vélmenni
 5. Skráið niður portin og hvaða mótorar og eða skynjarar tengjast þeim
 6. Takið mynd af vélmenni neðanfrá, ofanfrá og frá hlið og setjið í repo ykkar
