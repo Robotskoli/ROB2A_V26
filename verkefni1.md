@@ -1,5 +1,6 @@
 # Byggja vélmenni
 Vægi 15%
+
 Verkþættir:
 1. Búið til repository velmenniI gerið félaga og mig að collaborator (eirben), megið hafa ykkar eigið repo
 2. Búið til möppur í repository: verkefni1.md,verkefni2.md .....verkefni6.md
