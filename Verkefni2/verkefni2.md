@@ -3,7 +3,7 @@
 
 **Lesefni**
 
-- https://api.vex.com/v5/home/cpp/Motor.html
+- [https://api.vex.com/v5/home/cpp/Motor.html](https://api.vex.com/v5/home/cpp/Motion/motor_and_motor_group.html)
 - https://api.vex.com/v5/home/cpp/Drivetrain.html
 - https://kb.vex.com/hc/en-us/articles/360035952771-Creating-a-V5-Drivetrain
 
