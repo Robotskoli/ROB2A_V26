@@ -29,7 +29,7 @@ Notið for-lúppu, while eða repeat. Skilið vido af vélmenni leysa allar þra
 ATH! vélmennið verður að vera innan við 20cm frá upphafsstað í loka stöðu annars dregst 1 heill frá
 ***
 
-**3. Hluti 50 stig af 100**
+**2. Hluti 50 stig af 100**
 
 Vægi þátta:
 1. Kóði 20 stig
