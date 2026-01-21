@@ -7,12 +7,8 @@
 - https://api.vex.com/v5/home/cpp/Drivetrain.html
 - https://kb.vex.com/hc/en-us/articles/360035952771-Creating-a-V5-Drivetrain
 
-**1.hluti Hlaða (repo) 20 stig af 100**
 
-Búið til hlöðu í git (repository) gefið því nafnið Rob ath að hver nemandi hefur sitt repository. Gerið mig að collaborator (eirben) og hafið private.
-Öll verkefni kóði, myndband og sauðakóði á að vera þar og slóð skilað á innu fyrir hvert verkefni. Nemedur kóða hver fyrir sig en eiga samstarf og mega velja sameiginlegan kóða til að skila. Búið til möppur verkefni1.....verkefni5 og lokaverkefni í repo . Í verkefni1 möppu er kóði, myndband eða krækja í myndband flæðirit og sauðakóði á við allar möppur.
-
-**2.hluti suiside 30 stig af 100**
+**1.hluti suiside 50 stig af 100**
 
 ***Uppsetning á umhverfi***
 
