@@ -1,5 +1,5 @@
 
-**Færslur og snúningar,  vægi 15% af loka einkunn**
+**Færslur og snúningar,  vægi 10% af loka einkunn**
 
 **Lesefni**
 
