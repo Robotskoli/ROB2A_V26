@@ -18,8 +18,9 @@ Hér er kóði sem hjálpar :-) **Create a New Project - Select an Example Proje
 
 Vægi þátta:
 1. Kóði 40 stig
-1. Flæðirit og eða sauðakóði 20 stig
+1. Flæðirit og eða sauðakóði 10 stig
 1. Virkni (myndband) 40 stig
+1. Neiðarrofi 10 stig
 
 Foritið fjarstýringu þannig að hægt sé að stoppa vélmenni, notið kóðan úr 2.hluta í verkefni 1 , þið ráði hvaða takki gerir þetta. Hafið þetta hér eftir í öllum forritum ykkar þ.e að hægt sé að stöðva vélmennimeð fjarstýringu og með neyðar-rofa á vélmenni.
 Hér eftir skulu öll verkefni vera þannig að hægt sé að stöðva vélmenni með því að þrýsta á einhvern takka á fjarstýringu og neyðar-hnapp á vélmenni.
