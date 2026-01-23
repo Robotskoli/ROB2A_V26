@@ -22,7 +22,7 @@ Vægi þátta:
 1. Virkni (myndband) 40 stig
 1. Neyðarrofi 10 stig
 
-Foritið fjarstýringu þannig að hægt sé að stoppa vélmenni, notið kóðan úr 2.hluta í verkefni 1 , þið ráði hvaða takki gerir þetta. Hafið þetta hér eftir í öllum forritum ykkar þ.e að hægt sé að stöðva vélmennimeð fjarstýringu og með neyðar-rofa á vélmenni.
+Foritið fjarstýringu þannig að hægt sé að stoppa vélmenni, notið kóðan úr 2.hluta í verkefni 2 , þið ráði hvaða takki gerir þetta. Hafið þetta hér eftir í öllum forritum ykkar þ.e að hægt sé að stöðva vélmennimeð fjarstýringu og með neyðar-rofa á vélmenni.
 Hér eftir skulu öll verkefni vera þannig að hægt sé að stöðva vélmenni með því að þrýsta á einhvern takka á fjarstýringu og neyðar-hnapp á vélmenni.
 Ef ekki er neyðar-hnappur á vélmenni eða í kistu leitið þá til kennara.
 Gerið sauðakóða eða flæðiritið í http://draw.io þegar búið farið í  File-export as - image
