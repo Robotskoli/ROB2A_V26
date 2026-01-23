@@ -1,4 +1,4 @@
-**Fjarstýring,  vægi 10% af loka einkunn**
+**Fjarstýring,  vægi 15% af loka einkunn**
 
 Áður en þið byrjið kynnið ykkur þetta farið í [VS Code Extension](https://kb.vex.com/hc/en-us/categories/360002333191-V5#section-360007216832) Kynnið ykkur efni þessarar síðu.
 
