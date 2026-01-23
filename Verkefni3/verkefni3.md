@@ -20,7 +20,7 @@ Vægi þátta:
 1. Kóði 40 stig
 1. Flæðirit og eða sauðakóði 10 stig
 1. Virkni (myndband) 40 stig
-1. Neiðarrofi 10 stig
+1. Neyðarrofi 10 stig
 
 Foritið fjarstýringu þannig að hægt sé að stoppa vélmenni, notið kóðan úr 2.hluta í verkefni 1 , þið ráði hvaða takki gerir þetta. Hafið þetta hér eftir í öllum forritum ykkar þ.e að hægt sé að stöðva vélmennimeð fjarstýringu og með neyðar-rofa á vélmenni.
 Hér eftir skulu öll verkefni vera þannig að hægt sé að stöðva vélmenni með því að þrýsta á einhvern takka á fjarstýringu og neyðar-hnapp á vélmenni.
@@ -36,8 +36,9 @@ að fara til að fara í hring með ákveðin radíus. Ath að innri hjól fara 
 
 ![Mynd](https://github.com/Robotskoli/ROB2A_V25/blob/main/verkefni2c.jpg)
 
-1. Kóði 50 stig
+1. Kóði 45 stig
 1. Virkni (myndband)  50 stig
+1. Neiðarrofi 5 stig
 
 Gangi ykkur vel!
 
