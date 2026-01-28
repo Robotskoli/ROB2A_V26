@@ -1,4 +1,4 @@
-**Sonar og lightsensor vægi 15% af loka einkunn**
+**Sonar og lightsensor vægi 10% af loka einkunn**
 
 Munið að hafa alltaf rúðustrikaða verkefnabók þar sem þið byrjið á að teikna þrautina (vandamálið) til að gera ykkur grein fyrir því, takið síðan mynd og setjið á git í viðeigandi verkefnamöppu. Gerið síðan sauðakóða þ.e lýsingu á því hvernig þið leysið það.
 
