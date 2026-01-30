@@ -1,4 +1,4 @@
-Fylgja línu,  vægi 10% af loka einkunn
+Fylgja línu,  vægi 15% af loka einkunn
 
 ***Linsensor linetracking***
 
@@ -9,9 +9,10 @@ Lesefni:
 
 
 Vægi þátta:
-1. Kóði 40 stig
+1. Kóði 30 stig
 1. Flæðirit og eða sauðakóða 20 stig
 1. Virkni (myndband) 40 stig
+2. Reikna lyftigetu arms 10 stig
 
 Róbot á að fylgja línu sem er sett á golfið.
 Setjið upp línu-sensora, þeir eru 3, notið sample program- Line followe Triple Sensor line tracking til að koma ykkur af stað og UltraSonic  Range Modul. 
@@ -22,6 +23,11 @@ Gerið sér task sem birtir á skjá hvort vélmennið er hægrimegin, vinstrime
 - Gerið kóða í samræmi við sauðakóða/flæðirit og vistið á github
 - Takið upp video og setjið tengil í það á github (t.d youtube).
 - Skilið sló af github ykkar í Innu verkefni 4
+
+### Reikna lyftigetu arma
+
+Dæmi:
+Rauður mótor vex v5 torq 2,1Nm breyti yfir í gcm \(\text{Nm}=\frac{\text{gf}\cdot \text{cm}}{10197.16}\)
 
 Hér eftir skulu öll verkefni vera þannig að hægt sé að stöðva vélmenni með því að þrýsta á einhvern takka á fjarstýringu og neyðarrofa á vélmenni.
 
