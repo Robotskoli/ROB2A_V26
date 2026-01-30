@@ -27,7 +27,7 @@ Gerið sér task sem birtir á skjá hvort vélmennið er hægrimegin, vinstrime
 ### Reikna lyftigetu arma
 
 Dæmi:
-Rauður mótor vex v5 torq 2,1Nm breyti yfir í gcm \(\text{Nm}=\frac{\text{gf}\cdot \text{cm}}{10197.16}\)
+Rauður mótor vex v5 torq 2,1Nm breyti yfir í kgcm
 
 Hér eftir skulu öll verkefni vera þannig að hægt sé að stöðva vélmenni með því að þrýsta á einhvern takka á fjarstýringu og neyðarrofa á vélmenni.
 
