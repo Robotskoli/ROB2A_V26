@@ -27,14 +27,15 @@ Gerið sér task sem birtir á skjá hvort vélmennið er hægrimegin, vinstrime
 ### Reikna lyftigetu arma
 
 Dæmi:
+
 Rauður mótor vex V5 torq 2,1Nm breyti yfir í kgcm 21kgcm þettar er án gíra í armi
-ef armur er 10 cm langur þá er lyftigetan  21kg / 10 = 2,1 kg
-ef armur er 45 cm þá er lyftigetan 21kgcm / 45 =  0,46 kg
-í armi er tannhjól m 12T og annað 48T 48T / 12T  = 4 sinnum meira torq
+1. ef armur er 10 cm langur þá er lyftigetan  21kg / 10 = 2,1 kg
+1. ef armur er 45 cm þá er lyftigetan 21kgcm / 45 =  0,46 kg
+í armi er tannhjól m 12T og annað 48T 48T / 12T  = 4 sinnum meira torq og 4 sinnum minni hraði
 ef við erum með 45cm arm og rauðan mótor 0,46kg x 4 þá er lyftigetan 1,86 kg (stall) og til að vera örugg með að eyðileggja ekki mótor
 þá deilum við með 2 eða 0,933 kg
 
-sýnið ykkar útreikninga á lyfrigetu þ.e með grænum mótor og mælið ykkar arm
+sýnið ykkar útreikninga á lyfrigetu þ.e með grænum mótor og mælið ykkar arm og tannhjól sem tengjast armi.
 
 Hér eftir skulu öll verkefni vera þannig að hægt sé að stöðva vélmenni með því að þrýsta á einhvern takka á fjarstýringu og neyðarrofa á vélmenni.
 
