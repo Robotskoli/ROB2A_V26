@@ -36,6 +36,7 @@ ef við erum með 45cm arm og rauðan mótor 0,46kg x 4 þá er lyftigetan 1,86 
 þá deilum við með 2 eða 0,933 kg
 
 sýnið ykkar útreikninga á lyfrigetu þ.e með grænum mótor og mælið ykkar arm og tannhjól sem tengjast armi.
+Finnið hlut sem er jafn þungur og reiknuð lyftigeta arms og látið vélmennið lyfta, takið video af því og skilið.
 
 Hér eftir skulu öll verkefni vera þannig að hægt sé að stöðva vélmenni með því að þrýsta á einhvern takka á fjarstýringu og neyðarrofa á vélmenni.
 
