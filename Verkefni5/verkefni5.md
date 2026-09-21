@@ -12,10 +12,10 @@ Lesið allt í lesefni áður en þið byrjið verkefnið það er nauðsynlegt 
 #### Vægi þátta:
 
 Sauðakóði 10 stig
-Sýna kennara að allt virkar 20 stig
-Kóði 30 stig
-Virkni (myndband) 40 stig
-Sýna kennara
+1. Sýna kennara að allt virkar 20 stig
+1. Kóði 30 stig
+1. Virkni (myndband) 40 stig
+1. Sýna kennara
 Farið í Brain og devices veljið port sem þið tengduð AI vision í veljið eitthvað AprilTag og setjið fyrir framan AI vision hann á að sýna ID AprilTags.
 Búið til V5 verkefni sem er tómt (empty template project), þið sjáið í Include er bara vex.h skrá og í src er main.cpp setjið þennan kóða í stað þess sem fyrir er:
    /*----------------------------------------------------------------------------*/
