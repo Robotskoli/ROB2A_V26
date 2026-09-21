@@ -1,15 +1,15 @@
-QRcode / AprilTag, vægi 15% af loka einkunn
+### QRcode / AprilTag, vægi 15% af loka einkunn
 
-AprilTag
+#### AprilTag
 
 Lesið allt í lesefni áður en þið byrjið verkefnið það er nauðsynlegt að þið skiljið efnið og tækin sem þið eruð að vinna með.
 
-Lesefni:
+####Lesefni:
 
-AI Vision
-AprilTag
+### AI Vision
+### AprilTag
 
-Vægi þátta:
+#### Vægi þátta:
 
 Sauðakóði 10 stig
 Sýna kennara að allt virkar 20 stig
