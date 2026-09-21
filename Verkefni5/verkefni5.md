@@ -1,42 +1,89 @@
-Fylgja línu,  vægi 15% af loka einkunn
+QRcode / AprilTag, vægi 15% af loka einkunn
 
-***Linsensor linetracking***
+AprilTag
 
 Lesið allt í lesefni áður en þið byrjið verkefnið það er nauðsynlegt að þið skiljið efnið og tækin sem þið eruð að vinna með.
 
 Lesefni:
-- [Linesensor](https://kb.vex.com/hc/en-us/articles/360039287611-Using-the-V5-3-Wire-Line-Tracker)
 
+AI Vision
+AprilTag
 
 Vægi þátta:
-1. Kóði 30 stig
-1. Flæðirit og eða sauðakóða 20 stig
-1. Virkni (myndband) 40 stig
-2. Reikna lyftigetu arms 10 stig
 
-Róbot á að fylgja línu sem er sett á golfið.
-Setjið upp línu-sensora, þeir eru 3, notið sample program- Line followe Triple Sensor line tracking til að koma ykkur af stað og UltraSonic  Range Modul. 
-Skoðið þetta dæmi **Line Tracking**.
-Gerið sér task sem birtir á skjá hvort vélmennið er hægrimegin, vinstrimegin eða á miðju línu og ef engin lína þá birtist
-**"Leita af línu"** Gerið ráðstafanir svo vélmennið finni línuna aftur má vera sér task :-)
-- Byrjið á því að gera sauðakóða og eða flæðirit https://www.draw.io/. þegar búið farið í  File-export as - image .png
-- Gerið kóða í samræmi við sauðakóða/flæðirit og vistið á github
-- Takið upp video og setjið tengil í það á github (t.d youtube).
-- Skilið sló af github ykkar í Innu verkefni 4
+Sauðakóði 10 stig
+Sýna kennara að allt virkar 20 stig
+Kóði 30 stig
+Virkni (myndband) 40 stig
+Sýna kennara
+Farið í Brain og devices veljið port sem þið tengduð AI vision í veljið eitthvað AprilTag og setjið fyrir framan AI vision hann á að sýna ID AprilTags.
+Búið til V5 verkefni sem er tómt (empty template project), þið sjáið í Include er bara vex.h skrá og í src er main.cpp setjið þennan kóða í stað þess sem fyrir er:
+   /*----------------------------------------------------------------------------*/
+/*                                                                            */
+/*    Module:       main.cpp                                                  */
+/*    Author:       ebe                                                       */
+/*    Created:      9/10/2026, 7:37:24 AM                                     */
+/*    Description:  V5 project                                                */
+/*                                                                            */
+/*----------------------------------------------------------------------------*/
+#include "vex.h"
 
-### Reikna lyftigetu arma
+using namespace vex;
 
-Dæmi:
+// A global instance of vex::brain used for printing to the V5 brain screen
+vex::brain       Brain;
 
-Rauður mótor vex V5 torq 2,1Nm breyti yfir í kgcm 21kgcm þettar er án gíra í armi
-1. ef armur er 10 cm langur þá er lyftigetan  21kg / 10 = 2,1 kg
-1. ef armur er 45 cm þá er lyftigetan 21kgcm / 45 =  0,46 kg
-í armi er tannhjól m 12T og annað 48T 48T / 12T  = 4 sinnum meira torq og 4 sinnum minni hraði
-ef við erum með 45cm arm og rauðan mótor 0,46kg x 4 þá er lyftigetan 1,86 kg (stall) og til að vera örugg með að eyðileggja ekki mótor
-þá deilum við með 2 eða 0,933 kg
+vex::aivision AIVision1(PORT1, aivision::ALL_TAGS, aivision::ALL_AIOBJS);
 
-sýnið ykkar útreikninga á lyfrigetu þ.e með grænum mótor og mælið ykkar arm og tannhjól sem tengjast armi.
-Finnið hlut sem er jafn þungur og reiknuð lyftigeta arms og látið vélmennið lyfta, takið video af því og skilið.
+
+// define your global instances of motors and other devices here
+
+
+int main() {
+
+
+
+    while(1) {
+         Brain.Screen.clearScreen();
+    Brain.Screen.setCursor(1, 1);
+    // Take a snapshot of all AprilTags.
+    AIVision1.takeSnapshot(aivision::ALL_TAGS);
+    // Check to see if an AprilTag exists in this snapshot.
+    if (AIVision1.objectCount > 0) {
+      // Determine which AprilTag is detected.
+      if (AIVision1.objects[0].id == 1) {
+        // Conditional based on finding TagID #1.
+        Brain.Screen.print("Fann TagID 1");
+      } else if (AIVision1.objects[0].id == 2) {
+        Brain.Screen.print("Fann TagID 2");
+      } else {
+        // Else condition will print any other TagID found.
+        Brain.Screen.print("Fann TagID");
+        Brain.Screen.newLine();
+        Brain.Screen.print("TagID: ");
+        Brain.Screen.print(AIVision1.objects[0].id);
+      }
+    }
+    else {
+      // If no AprilTags are found in this snapshot, display a message.
+      Brain.Screen.print("Ekkert AprilTag");
+    }
+    // Wait some time and restart loop.
+    wait(0.3, seconds);
+  wait(5, msec);
+  }
+  return 0;
+
+
+}
+
+Verkefnið
+
+Vélmennið á að finna box id 1 og setja ofaná box id 2 sem er í 2m fjarlægð ásamt 3 boxum með öðrum númerum sem eru á móti id 1 boxi Vélmennið á að prenta á skjá (controller og Brain) hvað það er að gera og þegar hverjum hluta er lokið. dæmi "Fann id 1","Sæki id1", "opna kló", "loka kló", "lyfti" " fann id 2", "er að fara á stað id 2" og "id1 er komið á sinn stað" þ.e vélmennið skrifar skilaboð á skjá hvað það er að gera.
+
+Verkefna skil
+sauða Kóði
+Kóði
+Myndband
 
 Hér eftir skulu öll verkefni vera þannig að hægt sé að stöðva vélmenni með því að þrýsta á einhvern takka á fjarstýringu og neyðarrofa á vélmenni.
-
