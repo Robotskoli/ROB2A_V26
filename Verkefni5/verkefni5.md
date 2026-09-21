@@ -16,8 +16,10 @@ Sauðakóði 10 stig
 1. Kóði 30 stig
 1. Virkni (myndband) 40 stig
 1. Sýna kennara
+
 Farið í Brain og devices veljið port sem þið tengduð AI vision í veljið eitthvað AprilTag og setjið fyrir framan AI vision hann á að sýna ID AprilTags.
 Búið til V5 verkefni sem er tómt (empty template project), þið sjáið í Include er bara vex.h skrá og í src er main.cpp setjið þennan kóða í stað þess sem fyrir er:
+```C++
    /*----------------------------------------------------------------------------*/
 /*                                                                            */
 /*    Module:       main.cpp                                                  */
@@ -76,8 +78,8 @@ int main() {
 
 
 }
-
-Verkefnið
+```
+### Verkefnið
 
 Vélmennið á að finna box id 1 og setja ofaná box id 2 sem er í 2m fjarlægð ásamt 3 boxum með öðrum númerum sem eru á móti id 1 boxi Vélmennið á að prenta á skjá (controller og Brain) hvað það er að gera og þegar hverjum hluta er lokið. dæmi "Fann id 1","Sæki id1", "opna kló", "loka kló", "lyfti" " fann id 2", "er að fara á stað id 2" og "id1 er komið á sinn stað" þ.e vélmennið skrifar skilaboð á skjá hvað það er að gera.
 
